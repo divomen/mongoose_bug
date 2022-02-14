@@ -1,0 +1,16 @@
+{
+  "name": "mongoose-bug",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build; node build/index"
+  },
+  "dependencies": {
+    "mongoose": "^6.2.1",
+    "@typegoose/typegoose": "^9.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "license": "MIT"
+}
