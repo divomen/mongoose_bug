@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsc",
-    "start": "yarn build; node build/index"
+    "start": "node src/index_js",
+    "start_ts": "yarn build; node build/index"
   },
   "type": "module",
   "dependencies": {
