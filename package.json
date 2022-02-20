@@ -5,8 +5,9 @@
     "build": "tsc",
     "start": "yarn build; node build/index"
   },
+  "type": "module",
   "dependencies": {
-    "mongoose": "^6.2.1",
+    "mongoose": "^6.2.2",
     "@typegoose/typegoose": "^9.6.2"
   },
   "devDependencies": {
